@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '@/Components/header';
-import './Contact.css'; // Link to the CSS file
+import './contact.css'; // Link to the CSS file
 
 export default function Contact() {
   return (
