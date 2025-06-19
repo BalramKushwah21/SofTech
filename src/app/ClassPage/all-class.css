@@ -1,0 +1,120 @@
+.class8-container {
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #eff6ff, #ffffff);
+  display: flex;
+  flex-direction: column;
+}
+
+.class8-main {
+  flex-grow: 1;
+  padding: 2.5rem 1.5rem;
+}
+
+.class8-welcome {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.class8-title {
+  font-size: 2.25rem; /* text-4xl */
+  font-weight: 700;    /* font-bold */
+  color: #1e40af;      /* text-blue-800 */
+  margin-bottom: 0.5rem;
+}
+
+.class8-subtitle {
+  font-size: 1.125rem; /* text-lg */
+  color: #4b5563;      /* text-gray-600 */
+}
+
+.class8-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .class8-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .class8-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.subject-card {
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: linear-gradient(to bottom right, var(--from), var(--to));
+}
+
+.subject-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1f2937; /* text-gray-800 */
+}
+
+.subject-desc {
+  font-size: 0.875rem;
+  color: #374151; /* text-gray-700 */
+  margin: 0.5rem 0 1rem;
+}
+
+.subject-link {
+  display: inline-block;
+  background-color: #2563eb; /* bg-blue-600 */
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  transition: background-color 0.2s;
+  text-align: center;
+}
+
+.subject-link:hover {
+  background-color: #1d4ed8; /* hover:bg-blue-700 */
+}
+
+.class8-footer {
+  text-align: center;
+  color: #9ca3af; /* text-gray-400 */
+  padding: 1.5rem 0;
+  font-size: 0.875rem;
+}
+
+/* Subject color backgrounds */
+.green-bg {
+  --from: #bbf7d0;
+  --to: #dcfce7;
+}
+
+.yellow-bg {
+  --from: #fef08a;
+  --to: #fef9c3;
+}
+
+.pink-bg {
+  --from: #fbcfe8;
+  --to: #fce7f3;
+}
+
+.red-bg {
+  --from: #fecaca;
+  --to: #fee2e2;
+}
+
+.purple-bg {
+  --from: #e9d5ff;
+  --to: #f3e8ff;
+}
+
+.indigo-bg {
+  --from: #c7d2fe;
+  --to: #e0e7ff;
+}

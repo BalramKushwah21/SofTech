@@ -1,0 +1,145 @@
+/* Hero Section */
+.about-hero {
+  background: linear-gradient(to bottom, #111827, #000000);
+  color: white;
+  text-align: center;
+  padding: 5rem 1.5rem;
+}
+
+.about-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.highlight {
+  color: #2dd4bf; /* teal-400 */
+}
+
+.about-subtitle {
+  font-size: 1.125rem;
+  max-width: 48rem;
+  margin: 0 auto;
+}
+
+/* Our Story */
+.about-story {
+  background-color: white;
+  color: #1f2937; /* gray-800 */
+  text-align: center;
+  padding: 4rem 1.5rem;
+}
+
+.section-heading {
+  font-size: 1.875rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.section-content {
+  max-width: 64rem;
+  margin: 0 auto;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Mission & Values */
+.about-values {
+  background-color: #f3f4f6; /* gray-100 */
+  text-align: center;
+  padding: 4rem 1.5rem;
+  color: #374151; /* gray-700 */
+}
+
+.card-grid {
+  display: grid;
+  gap: 2rem;
+  max-width: 72rem;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .card-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.card {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+/* Mentors Section */
+.about-mentors {
+  background-color: #111827; /* gray-900 */
+  color: white;
+  text-align: center;
+  padding: 4rem 1.5rem;
+}
+
+.section-subtext {
+  margin-bottom: 2rem;
+  max-width: 48rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.125rem;
+}
+
+.mentors .mentor-card {
+  background-color: #1f2937; /* gray-800 */
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* CTA Section */
+.about-cta {
+  background-color: #2dd4bf;
+  color: black;
+  text-align: center;
+  padding: 5rem 1rem;
+}
+
+.cta-title {
+  font-size: 1.875rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.cta-subtext {
+  font-size: 1.125rem;
+  margin-bottom: 1.5rem;
+}
+
+.cta-button {
+  background-color: black;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 9999px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #1f2937;
+}
+
+/* Footer */
+.about-footer {
+  background-color: black;
+  color: #9ca3af; /* gray-400 */
+  text-align: center;
+  padding: 1.5rem 0;
+  font-size: 0.875rem;
+}
