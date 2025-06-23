@@ -79,7 +79,7 @@ export default function About() {
       <section className="about-cta">
         <h2 className="cta-title">Let’s Build Your Future</h2>
         <p className="cta-subtext">Join a community that believes in you. Because your journey matters.</p>
-        <a href="/menu-page/sign-up" className="cta-button">
+        <a href="/MenuPage/SignUp" className="cta-button">
           Sign Up Today
         </a>
       </section>

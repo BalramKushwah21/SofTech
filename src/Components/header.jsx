@@ -12,8 +12,8 @@ export default function Header() {
           <Link href="/">
           <Image src="/Coching Logo.jpg" 
           alt='Career Caoching'
-          width={80}
-          height={80}
+          width="80"
+          height="80"
           />
           </Link>
         </div>

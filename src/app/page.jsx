@@ -65,7 +65,7 @@ export default function Home() {
       <section className="cta-final">
         <h2 className="section-title black">Ready to Begin?</h2>
         <p className="cta-subtext">Join thousands of students who’ve already found clarity and confidence.</p>
-        <a href="/menu-page/sign-up" className="cta-dark-button">
+        <a href="/MenuPage/SignUp" className="cta-dark-button">
           Sign Up Now
         </a>
       </section>
